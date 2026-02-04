@@ -10,7 +10,25 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int age = 23;
+            Console.WriteLine(age);
+
+            long number = 678688L;
+            Console.WriteLine(number);
+
+            double phone = 9866467925;
+            Console.WriteLine(phone);
+
+            float marks = 25.5F;
+            Console.WriteLine(marks);
+
+            decimal bankBalance = 100.245656M;
+            Console.WriteLine(bankBalance);
+
+
+
+
+            
         }
     }
 }
