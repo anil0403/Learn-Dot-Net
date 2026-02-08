@@ -10,18 +10,25 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
-
-            char letter = 'a' ;
-            Console.WriteLine(letter);
-
-            string name = "Donald";
-            Console.WriteLine(name);
-
-
-
-
-
             
+            Console.Write("Enter your name \t");
+            string name = Console.ReadLine();
+            //Console.WriteLine("Entered name: "+name);
+
+            Console.Write("Enter you age: \t");
+            int age = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Entered age: " + age);
+
+            Console.ReadLine();
+
+
+
+
+
+
+
+
+
         }
     }
 }
