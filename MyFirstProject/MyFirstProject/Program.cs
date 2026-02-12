@@ -10,21 +10,19 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
-            
-            Console.Write("Enter your name \t");
-            string name = Console.ReadLine();
-            //Console.WriteLine("Entered name: "+name);
 
-            Console.Write("Enter you age: \t");
+            Console.WriteLine("Enter you age");
+
             int age = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine("Entered age: " + age);
-
-            Console.ReadLine();
 
 
-
-
-
+            if(age >= 18)
+            {
+                Console.WriteLine("you are eligible to vote");
+            }else
+            {
+                Console.WriteLine("you are not eligible to vote");
+            }
 
 
 
