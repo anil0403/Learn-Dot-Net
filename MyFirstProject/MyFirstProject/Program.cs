@@ -12,9 +12,20 @@ namespace MyFirstProject
         static void Main(string[] args)
         {
 
-           for(int i =0; i < 10; i++)
+            bool state = true;
+            int count = 0; 
+            while (state)
             {
-                Console.WriteLine("Count = " + i);
+                if (count <10 )
+                {
+                    Console.WriteLine("Hello World");
+                }
+                else
+                {
+                    state = false;
+                }
+                    count++;
+
             }
             
             
